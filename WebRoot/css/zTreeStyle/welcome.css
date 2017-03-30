@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+
+#nemus > li{float: left;}
+#nemus > li  a{display: block;width:70px;text-decoration: none;color: #000;}
+#nemus  li dl{border:1px solid #ccc;background-color: #D6D6AD;width:96px;}
+#nemus{
+	width:200px;
+	height:21px;
+	position:fixed;
+	/*right:78.23%;*/
+	left:220px;
+	top:21px;
+}
+#welcom_name{
+	width:300px;
+}	
+
+*{margin:0;padding:0;font-style:normal;font-family:微软雅黑;}
+ul{ list-style:none}
+
+li a{ display:block; height:30px;  font-size:14px; color:#999; padding-left:2em}
+
+.subMenu{ display:none; margin-left:1em}
+body{margin: 0; padding: 0;}
+.Header{height:50px; background-color:#D6D6AD;}
+a:link{color: #000000;text-decoration:none;}
+/*.site{position:fixed; right:78.23%;top:21px;}*/
+.Left{position: absolute;top:50px;width: 11.4%;height: 94.7%;border:1px solid #000;left: 0;}
+.Right {position: absolute;top:50px;width: 88.37%;height:94.7%;border:1px solid #000;right: 0;}

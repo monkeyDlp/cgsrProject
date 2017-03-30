@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.project.dao.user.FaultindicatorMapper">
+	
+	<!-- getFaultindicatorList -->
+	<select id="getFaultindicatorList" resultType="faultindicator" parameterType="faultindicator">
+		select * from faultindicator where feederid=3
+    </select>
+    
+	<!-- getFaultindicator -->
+	<select id="getFaultindicator" resultType="faultindicator" parameterType="faultindicator">
+		select * from faultindicator where id = #{id} 
+    </select>
+	
+</mapper> 

@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="2100px" height="1380px" viewBox="0 0 2100 1380" xmlns="http://www.w3.org/2000/svg" xmlns:cge="http://www.cim.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <def>
+    <symbol id="terminal" preserveAspectRatio="xMidYMid meet">
+      <circle cx="0" cy="0" r="1" stroke="yellow" fill="yellow" stroke-width="1"/>
+    </symbol>
+    <symbol id="Breaker:开关（竖）_0" viewBox="0 0 32 32">
+      <use x="16" y="3" xlink:href="#terminal"/>
+      <use x="16" y="30" xlink:href="#terminal"/>
+      <rect fill="none" stroke="#2de55b" stroke-width="1" x="9" y="3" width="15" height="27"/>
+    </symbol>
+    <symbol id="Breaker:开关（竖）_1" viewBox="0 0 32 32">
+      <use x="16" y="3" xlink:href="#terminal"/>
+      <use x="16" y="30" xlink:href="#terminal"/>
+      <rect fill="#e52d2d" stroke="#ff0000" stroke-width="1" x="8" y="3" width="16" height="27"/>
+    </symbol>
+    <symbol id="Transformer3:gy三卷变_0" viewBox="0 0 64 64">
+      <use x="20" y="5" xlink:href="#terminal"/>
+      <circle fill="none" stroke="#ff0000" stroke-width="1" cx="20" cy="20" r="15"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="11" y1="12" x2="20" y2="19"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="20" y1="19" x2="29" y2="12"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="20" y1="19" x2="20" y2="29"/>
+    </symbol>
+    <symbol id="Transformer3:gy三卷变_1" viewBox="0 0 64 64">
+      <use x="20" y="61" xlink:href="#terminal"/>
+      <circle fill="none" stroke="#607ee5" stroke-width="1" cx="20" cy="46" r="15"/>
+      <line fill="#ffff00" stroke="#7878ff" stroke-width="1" x1="23" y1="38" x2="23" y2="54"/>
+      <line fill="#ffff00" stroke="#7878ff" stroke-width="1" x1="12" y1="46" x2="23" y2="38"/>
+      <line fill="#ffff00" stroke="#7878ff" stroke-width="1" x1="12" y1="46" x2="23" y2="54"/>
+    </symbol>
+    <symbol id="Transformer3:gy三卷变_2" viewBox="0 0 64 64">
+      <use x="57" y="33" xlink:href="#terminal"/>
+      <circle fill="none" stroke="#ffff00" stroke-width="1" cx="42" cy="33" r="15"/>
+      <line fill="none" stroke="#ffff00" stroke-width="1" x1="35" y1="26" x2="42" y2="33"/>
+      <line fill="none" stroke="#ffff00" stroke-width="1" x1="42" y1="33" x2="49" y2="26"/>
+      <line fill="none" stroke="#ffff00" stroke-width="1" x1="42" y1="33" x2="42" y2="41"/>
+    </symbol>
+    <symbol id="Other:中性_0" viewBox="0 0 64 64">
+      <line fill="#ffff00" stroke="#ff0000" stroke-width="1" x1="32" y1="10" x2="32" y2="3"/>
+      <rect fill="none" stroke="#ff0000" stroke-width="1" x="43" y="18" width="6" height="18"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="43" y1="20" x2="48" y2="20"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="43" y1="22" x2="48" y2="22"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="43" y1="32" x2="49" y2="32"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="43" y1="34" x2="48" y2="34"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="18" y1="22" x2="13" y2="29"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="32" y1="41" x2="32" y2="47"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="28" y1="47" x2="36" y2="47"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="29" y1="49" x2="35" y2="49"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="31" y1="51" x2="33" y2="51"/>
+      <line fill="#ffff00" stroke="#ff0000" stroke-width="1" x1="18" y1="10" x2="46" y2="10"/>
+      <line fill="#ffff00" stroke="#ff0000" stroke-width="1" x1="46" y1="10" x2="46" y2="18"/>
+      <line fill="#ffff00" stroke="#ff0000" stroke-width="1" x1="18" y1="10" x2="18" y2="22"/>
+      <line fill="#ffff00" stroke="#ff0000" stroke-width="1" x1="18" y1="30" x2="18" y2="41"/>
+      <line fill="#ffff00" stroke="#ff0000" stroke-width="1" x1="18" y1="41" x2="46" y2="41"/>
+      <line fill="#ffff00" stroke="#ff0000" stroke-width="1" x1="46" y1="41" x2="46" y2="36"/>
+    </symbol>
+    <symbol id="Compensator:MPT2_0" viewBox="0 0 48 48">
+      <use x="33" y="4" xlink:href="#terminal"/>
+      <rect fill="none" stroke="#ff0000" stroke-width="1" x="9" y="13" width="8" height="19"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="9" y1="15" x2="17" y2="15"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="9" y1="17" x2="17" y2="17"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="9" y1="28" x2="17" y2="28"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="9" y1="30" x2="17" y2="30"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="13" y1="32" x2="13" y2="36"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="9" y1="36" x2="17" y2="36"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="16" y1="38" x2="10" y2="38"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="12" y1="40" x2="14" y2="40"/>
+      <circle fill="none" stroke="#ff0000" stroke-width="1" cx="33" cy="41" r="6"/>
+      <circle fill="none" stroke="#ff0000" stroke-width="1" cx="33" cy="31" r="6"/>
+      <circle fill="none" stroke="#ff0000" stroke-width="1" cx="25" cy="36" r="6"/>
+      <line fill="none" stroke="#ff0000" stroke-width="1" x1="33" y1="25" x2="33" y2="4"/>
+      <polyline fill="none" stroke="#ff0000" stroke-width="1" points="13,13 13,10 33,10 "/>
+    </symbol>
+    <symbol id="Transformer2:所用变_0" viewBox="0 0 32 32">
+      <use x="3" y="16" xlink:href="#terminal"/>
+      <circle fill="none" stroke="#ff0000" stroke-width="1" cx="11" cy="16" r="8"/>
+    </symbol>
+    <symbol id="Transformer2:所用变_1" viewBox="0 0 32 32">
+      <use x="30" y="16" xlink:href="#terminal"/>
+      <circle fill="none" stroke="#ff0000" stroke-width="1" cx="22" cy="16" r="8"/>
+    </symbol>
+    <symbol id="Compensator:电容_0" viewBox="0 0 32 32">
+      <use x="5" y="16" xlink:href="#terminal"/>
+      <line fill="#ffff00" stroke="#ff0000" stroke-width="2" x1="15" y1="8" x2="15" y2="25"/>
+      <line fill="#ffff00" stroke="#ff0000" stroke-width="2" x1="22" y1="8" x2="22" y2="25"/>
+      <line fill="#ffff00" stroke="#ff0000" stroke-width="2" x1="5" y1="16" x2="15" y2="16"/>
+    </symbol>
+    <symbol id="ied:保护_0" viewBox="0 0 32 32">
+      <rect fill="none" stroke="#cacaca" stroke-width="1" x="3" y="8" width="27" height="17"/>
+      <rect fill="#ff0000" stroke="#cacaca" stroke-width="1" x="5" y="10" width="16" height="11"/>
+      <rect fill="#000000" stroke="#cacaca" stroke-width="1" x="24" y="10" width="3" height="11"/>
+    </symbol>
+    <symbol id="ied:保护_1" viewBox="0 0 32 32">
+      <rect fill="none" stroke="#cacaca" stroke-width="1" x="3" y="9" width="27" height="17"/>
+      <rect fill="#00ff00" stroke="#cacaca" stroke-width="1" x="5" y="11" width="16" height="11"/>
+      <rect fill="#000000" stroke="#cacaca" stroke-width="1" x="24" y="11" width="3" height="11"/>
+    </symbol>
+    <symbol id="Breaker:开关（横）_0" viewBox="0 0 32 32">
+      <use x="4" y="16" xlink:href="#terminal"/>
+      <use x="29" y="16" xlink:href="#terminal"/>
+      <rect fill="none" stroke="#2de55b" stroke-width="1" x="4" y="9" width="25" height="15"/>
+    </symbol>
+    <symbol id="Breaker:开关（横）_1" viewBox="0 0 32 32">
+      <use x="4" y="16" xlink:href="#terminal"/>
+      <use x="29" y="16" xlink:href="#terminal"/>
+      <rect fill="#e52d2d" stroke="#ff0000" stroke-width="1" x="4" y="9" width="25" height="15"/>
+    </symbol>
+  </def>
+  <g>
+    <use id="1" x="864" y="778" width="57" height="31" transform="translate(-28,-15),scale(1.00,1.00),rotate(-90,864,778)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="384477" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="2" x="1476" y="238" width="56" height="37" transform="translate(-28,-18),scale(1.00,1.00),rotate(0,1476,238)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="187869" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="3" x="783" y="1007" width="37" height="56" transform="translate(-18,-28),scale(1.00,1.00),rotate(0,783,1007)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="-572662307" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="4" x="1619" y="300" width="42" height="44" transform="translate(-21,-22),scale(1.00,1.00),rotate(-90,1619,300)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="187869" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="5" x="575" y="774" width="19" height="45" transform="translate(--7,-26),scale(1.00,1.00),rotate(0,575,774)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="187869" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <text fill="#ff0000" stroke="#dce52d" font-family="SimSun" font-size="44" x="1086" y="80">
+    <tspan x="1086" y="80">北郊变</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1753" y="63">
+    <tspan x="1753" y="63">3516</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="243" y="496">
+    <tspan x="243" y="496">I中</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="404" y="495">
+    <tspan x="404" y="495">1#主变</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="294" y="333">
+    <tspan x="294" y="333">1101</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="770" y="489">
+    <tspan x="770" y="489">II中</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="911" y="495">
+    <tspan x="911" y="495">2#主变</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="24" x="287" y="45">
+    <tspan x="287" y="45">固北I线</tspan>
+  </text>
+  <a xlink:href="一二接线图">
+    <rect style="fill:#019493fdfdfdfd;stroke:#ff0000;stroke-width:3" x="1079" y="30" width="145" height="56"/>
+  </a>
+  <g>
+    <path style="fill:none;stroke:#ff0000;stroke-width:5" d="M 120 231 L 546 233"/>
+    <metadata>
+      <cge:CimClass CimType="Bus"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="318941" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#ffff00;stroke-width:5" d="M 1656 25 L 1656 295"/>
+    <metadata>
+      <cge:CimClass CimType="Bus"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:5" d="M 131 884 L 1446 884"/>
+    <metadata>
+      <cge:CimClass CimType="Bus"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#0000aa;stroke-width:5" d="M 1501 884 L 2085 884"/>
+    <metadata>
+      <cge:CimClass CimType="Bus"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="19" x="336" y="330" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,336,330)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="581085" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="20" x="364" y="540" width="153" height="152" transform="translate(-76,-76),scale(1.00,1.00),rotate(0,364,540)" xlink:href="#Transformer3:gy三卷变_0"/>
+    <metadata>
+      <cge:CimClass CimType="Transformer3"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+    <use id="20" x="364" y="540" width="153" height="152" transform="translate(-76,-76),scale(1.00,1.00),rotate(0,364,540)" xlink:href="#Transformer3:gy三卷变_1"/>
+    <metadata>
+      <cge:CimClass CimType="Transformer3"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+    <use id="20" x="364" y="540" width="153" height="152" transform="translate(-76,-76),scale(1.00,1.00),rotate(0,364,540)" xlink:href="#Transformer3:gy三卷变_2"/>
+    <metadata>
+      <cge:CimClass CimType="Transformer3"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="817" y="335">
+    <tspan x="817" y="335">1102</tspan>
+  </text>
+  <g>
+    <use id="22" x="861" y="330" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,861,330)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="23" x="889" y="538" width="153" height="152" transform="translate(-76,-76),scale(1.00,1.00),rotate(0,889,538)" xlink:href="#Transformer3:gy三卷变_0"/>
+    <metadata>
+      <cge:CimClass CimType="Transformer3"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="384477" FieldNo="-8739"/>
+    </metadata>
+    <use id="23" x="889" y="538" width="153" height="152" transform="translate(-76,-76),scale(1.00,1.00),rotate(0,889,538)" xlink:href="#Transformer3:gy三卷变_1"/>
+    <metadata>
+      <cge:CimClass CimType="Transformer3"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="384477" FieldNo="-8739"/>
+    </metadata>
+    <use id="23" x="889" y="538" width="153" height="152" transform="translate(-76,-76),scale(1.00,1.00),rotate(0,889,538)" xlink:href="#Transformer3:gy三卷变_2"/>
+    <metadata>
+      <cge:CimClass CimType="Transformer3"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="384477" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <line style="fill:none;stroke:#ff0000;stroke-width:1" x1="335" y1="509" x2="256" y2="509"/>
+  <g>
+    <use id="25" x="257" y="558" width="94" height="108" transform="translate(-47,-54),scale(1.00,1.00),rotate(0,257,558)" xlink:href="#Other:中性_0"/>
+    <metadata>
+      <cge:CimClass CimType="Other"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="26" x="785" y="557" width="86" height="108" transform="translate(-43,-54),scale(1.00,1.00),rotate(0,785,557)" xlink:href="#Other:中性_0"/>
+    <metadata>
+      <cge:CimClass CimType="Other"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="458813" FieldNo="264"/>
+    </metadata>
+  </g>
+  <line style="fill:none;stroke:#ff0000;stroke-width:1" x1="860" y1="508" x2="785" y2="508"/>
+  <g>
+    <use id="28" x="1476" y="72" width="75" height="74" transform="translate(-37,-37),scale(1.00,1.00),rotate(271,1476,72)" xlink:href="#Compensator:MPT2_0"/>
+    <metadata>
+      <cge:CimClass CimType="Compensator"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="253405" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#ff0000;stroke-width:5" d="M 711 234 L 1119 233"/>
+    <metadata>
+      <cge:CimClass CimType="Bus"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#ff0000;stroke-width:5" d="M 50 233 L 473 233"/>
+    <metadata>
+      <cge:CimClass CimType="Bus"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="0" FieldNo="0"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="31" x="168" y="98" width="48" height="48" transform="translate(-24,-24),scale(1.00,1.00),rotate(180,168,98)" xlink:href="#Compensator:MPT2_0"/>
+    <metadata>
+      <cge:CimClass CimType="Compensator"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="264"/>
+    </metadata>
+  </g>
+  <text fill="#1c1cff" stroke="#2de55b" font-family="SimSun" font-size="16" x="723" y="151">
+    <tspan x="723" y="151">1112</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="24" x="651" y="43">
+    <tspan x="651" y="43">固北II线</tspan>
+  </text>
+  <g>
+    <use id="34" x="771" y="143" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,771,143)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="384477" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="35" x="950" y="96" width="48" height="48" transform="translate(-24,-24),scale(1.00,1.00),rotate(180,950,96)" xlink:href="#Compensator:MPT2_0"/>
+    <metadata>
+      <cge:CimClass CimType="Compensator"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="459016" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#ff0000;stroke-width:1" d="M 771 97 L 771 11 L 771 11 "/>
+    <metadata>
+      <cge:CimClass CimType="ACLine"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#ffff00;stroke-width:5" d="M 2006 23 L 2006 762"/>
+    <metadata>
+      <cge:CimClass CimType="Bus"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="2018" y="68">
+    <tspan x="2018" y="68">旁路</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1753" y="123">
+    <tspan x="1753" y="123">3516</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="2018" y="126">
+    <tspan x="2018" y="126">备用</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1749" y="205">
+    <tspan x="1749" y="205">3514</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="2019" y="208">
+    <tspan x="2019" y="208">备用</tspan>
+  </text>
+  <g>
+    <path style="fill:none;stroke:#ffff00;stroke-width:5" d="M 1655 495 L 1655 765"/>
+    <metadata>
+      <cge:CimClass CimType="Bus"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1753" y="563">
+    <tspan x="1753" y="563">3513</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1751" y="641">
+    <tspan x="1751" y="641">3512</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1751" y="723">
+    <tspan x="1751" y="723">3511</tspan>
+  </text>
+  <g>
+    <use id="48" x="1656" y="400" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1656,400)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="458752" FieldNo="0"/>
+    </metadata>
+  </g>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1608" y="406">
+    <tspan x="1608" y="406">3500</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="2023" y="570">
+    <tspan x="2023" y="570">北石线</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="2023" y="648">
+    <tspan x="2023" y="648">北官线</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="2025" y="728">
+    <tspan x="2025" y="728">北古线</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="16" x="1667" y="34">
+    <tspan x="1667" y="34">II母</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="16" x="1665" y="778">
+    <tspan x="1665" y="778">I母</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="16" x="1999" y="792">
+    <tspan x="1999" y="792">旁母</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1459" y="159">
+    <tspan x="1459" y="159">3502</tspan>
+  </text>
+  <g>
+    <use id="57" x="1485" y="578" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1485,578)" xlink:href="#Transformer2:所用变_0"/>
+    <metadata>
+      <cge:CimClass CimType="Transformer2"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+    <use id="57" x="1485" y="578" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1485,578)" xlink:href="#Transformer2:所用变_1"/>
+    <metadata>
+      <cge:CimClass CimType="Transformer2"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1473" y="560">
+    <tspan x="1473" y="560">所变</tspan>
+  </text>
+  <g>
+    <use id="59" x="1496" y="670" width="75" height="74" transform="translate(-37,-37),scale(1.00,1.00),rotate(271,1496,670)" xlink:href="#Compensator:MPT2_0"/>
+    <metadata>
+      <cge:CimClass CimType="Compensator"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="459016" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1491" y="724">
+    <tspan x="1491" y="724">3501</tspan>
+  </text>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:5" d="M 137 1125 L 2098 1125"/>
+    <metadata>
+      <cge:CimClass CimType="Bus"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="62" x="199" y="989" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,199,989)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 199 1056 L 199 1179"/>
+    <metadata>
+      <cge:CimClass CimType="Load"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="64" x="297" y="989" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,297,989)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 297 1056 L 297 1179"/>
+    <metadata>
+      <cge:CimClass CimType="Load"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="66" x="389" y="989" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,389,989)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="458752" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 389 1056 L 389 1179"/>
+    <metadata>
+      <cge:CimClass CimType="Load"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="68" x="483" y="989" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,483,989)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 483 1056 L 483 1179"/>
+    <metadata>
+      <cge:CimClass CimType="Load"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="70" x="685" y="989" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,685,989)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 685 1056 L 685 1179"/>
+    <metadata>
+      <cge:CimClass CimType="Load"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="458752" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="72" x="775" y="989" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,775,989)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 775 1056 L 775 1179"/>
+    <metadata>
+      <cge:CimClass CimType="Load"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="74" x="912" y="1011" width="37" height="56" transform="translate(-147,-32),scale(1.00,1.00),rotate(0,912,1011)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="75" x="941" y="1007" width="37" height="56" transform="translate(-176,-28),scale(1.00,1.00),rotate(0,941,1007)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="76" x="1070" y="1011" width="37" height="56" transform="translate(-305,-32),scale(1.00,1.00),rotate(0,1070,1011)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="77" x="1019" y="1009" width="37" height="56" transform="translate(-254,-30),scale(1.00,1.00),rotate(0,1019,1009)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="78" x="929" y="991" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,929,991)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="458752" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="79" x="1148" y="1013" width="37" height="56" transform="translate(-383,-34),scale(1.00,1.00),rotate(0,1148,1013)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="8"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="80" x="1177" y="1009" width="37" height="56" transform="translate(-412,-30),scale(1.00,1.00),rotate(0,1177,1009)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="81" x="1306" y="1013" width="37" height="56" transform="translate(-541,-34),scale(1.00,1.00),rotate(0,1306,1013)" xlink:href="#Breaker:开关_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="82" x="1024" y="991" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1024,991)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="187869" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="83" x="1026" y="1091" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(90,1026,1091)" xlink:href="#Transformer2:所用变_0"/>
+    <metadata>
+      <cge:CimClass CimType="Transformer2"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+    <use id="83" x="1026" y="1091" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(90,1026,1091)" xlink:href="#Transformer2:所用变_1"/>
+    <metadata>
+      <cge:CimClass CimType="Transformer2"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="84" x="1099" y="991" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1099,991)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 1099 1058 L 1099 1181"/>
+    <metadata>
+      <cge:CimClass CimType="Load"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="86" x="1374" y="990" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1374,990)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="581085" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 1374 1057 L 1374 1180"/>
+    <metadata>
+      <cge:CimClass CimType="Load"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="459193" FieldNo="264"/>
+    </metadata>
+  </g>
+  <polyline style="fill:none;stroke:#1c1cff;stroke-width:1" points="334,608 334,870 850,870 850,1094 928,1094 928,1056 928,1056 "/>
+  <polyline style="fill:none;stroke:#1c1cff;stroke-width:1" points="928,1056 "/>
+  <polyline style="fill:none;stroke:#1c1cff;stroke-width:1" points="928,1056 "/>
+  <g>
+    <use id="91" x="1194" y="1004" width="74" height="75" transform="translate(-37,-37),scale(1.00,1.00),rotate(1,1194,1004)" xlink:href="#Compensator:MPT2_0"/>
+    <metadata>
+      <cge:CimClass CimType="Compensator"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="92" x="1284" y="980" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1284,980)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="93" x="1286" y="1079" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(270,1286,1079)" xlink:href="#Compensator:电容_0"/>
+    <metadata>
+      <cge:CimClass CimType="Compensator"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="94" x="1438" y="990" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1438,990)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <polyline style="fill:none;stroke:#1c1cff;stroke-width:1" points="1437,1000 1437,1072 1524,1072 1524,935 1524,935 1524,935 "/>
+  <g>
+    <use id="96" x="1599" y="990" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1599,990)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 1599 1057 L 1599 1180"/>
+    <metadata>
+      <cge:CimClass CimType="Load"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="98" x="1885" y="990" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1885,990)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 1886 1058 L 1886 1181"/>
+    <metadata>
+      <cge:CimClass CimType="Load"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="318941" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="100" x="2047" y="990" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,2047,990)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="459016" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 2047 1057 L 2047 1180"/>
+    <metadata>
+      <cge:CimClass CimType="Load"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="102" x="1969" y="1006" width="74" height="75" transform="translate(-37,-37),scale(1.00,1.00),rotate(1,1969,1006)" xlink:href="#Compensator:MPT2_0"/>
+    <metadata>
+      <cge:CimClass CimType="Compensator"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="103" x="1800" y="978" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1800,978)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="104" x="1800" y="1110" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(270,1800,1110)" xlink:href="#Compensator:电容_0"/>
+    <metadata>
+      <cge:CimClass CimType="Compensator"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="105" x="1736" y="992" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1736,992)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <polyline style="fill:none;stroke:#1c1cff;stroke-width:1" points="1735,1057 "/>
+  <polyline style="fill:none;stroke:#1c1cff;stroke-width:1" points="1735,1057 "/>
+  <polyline style="fill:none;stroke:#1c1cff;stroke-width:1" points="860,606 860,849 1657,849 1657,1101 1736,1101 1736,1058 1737,1056 "/>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="20" x="130" y="906">
+    <tspan x="130" y="906">I母</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="20" x="134" y="1112">
+    <tspan x="134" y="1112">旁母</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="214" y="996">
+    <tspan x="214" y="996">127</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="311" y="996">
+    <tspan x="311" y="996">126</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="401" y="995">
+    <tspan x="401" y="995">125</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="495" y="995">
+    <tspan x="495" y="995">124</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="697" y="997">
+    <tspan x="697" y="997">119</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="787" y="996">
+    <tspan x="787" y="996">111</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="166" y="1203">
+    <tspan x="166" y="1203">西关路</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="265" y="1203">
+    <tspan x="265" y="1203">文化街</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="357" y="1203">
+    <tspan x="357" y="1203">河东线</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="451" y="1203">
+    <tspan x="451" y="1203">备 用</tspan>
+  </text>
+  <g>
+    <use id="121" x="592" y="992" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,592,992)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="450013" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="604" y="998">
+    <tspan x="604" y="998">123</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="20" x="574" y="1150">
+    <tspan x="574" y="1150">旁路</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="653" y="1203">
+    <tspan x="653" y="1203">城西线</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="744" y="1203">
+    <tspan x="744" y="1203">中山街线</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="20" x="1003" y="1148">
+    <tspan x="1003" y="1148">所变</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="1057" y="1203">
+    <tspan x="1057" y="1203">东关路线</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="20" x="1257" y="1149">
+    <tspan x="1257" y="1149">I母电容</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="1331" y="1203">
+    <tspan x="1331" y="1203">北环路线</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="1565" y="1203">
+    <tspan x="1565" y="1203">铁路线</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="20" x="1748" y="1151">
+    <tspan x="1748" y="1151">II母电容</tspan>
+  </text>
+  <g>
+    <use id="132" x="1761" y="1107" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(270,1761,1107)" xlink:href="#Compensator:电容_0"/>
+    <metadata>
+      <cge:CimClass CimType="Compensator"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="458760" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <polyline style="fill:none;stroke:#1c1cff;stroke-width:1" points="1800,1050 1761,1050 1761,1099 1761,1099 "/>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="1854" y="1203">
+    <tspan x="1854" y="1203">西郊线</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="1994" y="1203">
+    <tspan x="1994" y="1203"> 北海路线</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="940" y="998">
+    <tspan x="940" y="998">101</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1037" y="999">
+    <tspan x="1037" y="999">112</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1111" y="997">
+    <tspan x="1111" y="997">115</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1298" y="989">
+    <tspan x="1298" y="989">120</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1386" y="997">
+    <tspan x="1386" y="997">114</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1449" y="996">
+    <tspan x="1449" y="996">100</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1611" y="998">
+    <tspan x="1611" y="998">113</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1747" y="999">
+    <tspan x="1747" y="999">102</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1812" y="984">
+    <tspan x="1812" y="984">116</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="1896" y="996">
+    <tspan x="1896" y="996">117</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="2060" y="997">
+    <tspan x="2060" y="997">118</tspan>
+  </text>
+  <g>
+    <use id="147" x="525" y="483" width="50" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,525,483)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001035" FieldNo="16"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="148" x="526" y="520" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,526,520)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001036" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="557" y="488">
+    <tspan x="557" y="488">#1主变差动保护CSC326FC</tspan>
+  </text>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="558" y="527">
+    <tspan x="558" y="527">#1主变后备保护CSC326FD</tspan>
+  </text>
+  <text fill="#1c1cff" stroke="#2de55b" font-family="SimSun" font-size="16" x="345" y="151">
+    <tspan x="345" y="151">1111</tspan>
+  </text>
+  <g>
+    <use id="152" x="393" y="143" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,393,143)" xlink:href="#Breaker:开关（竖）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <path style="fill:none;stroke:#ff0000;stroke-width:1" d="M 393 97 L 393 11 L 393 11 "/>
+    <metadata>
+      <cge:CimClass CimType="ACLine"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <polyline style="fill:none;stroke:#e3e300;stroke-width:1" points="389,562 389,695 914,695 914,557 "/>
+  <line style="fill:none;stroke:#1c1cff;stroke-width:1" x1="928" y1="1004" x2="928" y2="1055"/>
+  <line style="fill:none;stroke:#0000aa;stroke-width:1" x1="1524" y1="935" x2="1524" y2="883"/>
+  <g>
+    <use id="164" x="526" y="555" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,526,555)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001037" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="558" y="562">
+    <tspan x="558" y="562">#1主变非电量保护CSC336C</tspan>
+  </text>
+  <g>
+    <use id="166" x="989" y="584" width="50" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,989,584)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001038" FieldNo="16"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="167" x="990" y="621" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,990,621)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001039" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1021" y="589">
+    <tspan x="1021" y="589">#2主变差动保护CSC326FC</tspan>
+  </text>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1022" y="628">
+    <tspan x="1022" y="628">#2主变后备保护CSC326FD</tspan>
+  </text>
+  <g>
+    <use id="170" x="990" y="656" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,990,656)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001040" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1022" y="663">
+    <tspan x="1022" y="663">#2主变非电量保护CSC336C</tspan>
+  </text>
+  <g>
+    <use id="172" x="432" y="55" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,432,55)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001041" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="464" y="62">
+    <tspan x="464" y="62">110kV固北I线CSC163A</tspan>
+  </text>
+  <g>
+    <use id="174" x="810" y="46" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,810,46)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001042" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="842" y="53">
+    <tspan x="842" y="53">110kV固北II线PSL621</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="14" x="573" y="216">
+    <tspan x="573" y="216">1100</tspan>
+  </text>
+  <g>
+    <use id="177" x="530" y="264" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,530,264)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001035" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="562" y="271">
+    <tspan x="562" y="271">1100分段CSC211</tspan>
+  </text>
+  <g>
+    <use id="179" x="952" y="268" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,952,268)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001044" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="984" y="275">
+    <tspan x="984" y="275">110kV备自投WBT822</tspan>
+  </text>
+  <g>
+    <use id="181" x="78" y="263" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,78,263)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001045" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="110" y="270">
+    <tspan x="110" y="270">110kV母线保护CSC150</tspan>
+  </text>
+  <g>
+    <use id="183" x="1729" y="692" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1729,692)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001046" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1761" y="699">
+    <tspan x="1761" y="699">35kV北古线路保护CSC211</tspan>
+  </text>
+  <g>
+    <use id="185" x="1727" y="610" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1727,610)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001047" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1759" y="617">
+    <tspan x="1759" y="617">35kV北官线路保护CSC211</tspan>
+  </text>
+  <g>
+    <use id="187" x="1727" y="532" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1727,532)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001048" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1759" y="539">
+    <tspan x="1759" y="539">35kV北石线路保护CSC211</tspan>
+  </text>
+  <g>
+    <use id="189" x="1720" y="398" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1720,398)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001049" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1752" y="405">
+    <tspan x="1752" y="405">35kV分段CSC211</tspan>
+  </text>
+  <g>
+    <use id="191" x="1749" y="26" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1749,26)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001051" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1781" y="33">
+    <tspan x="1781" y="33">35kV旁路保护CSC211</tspan>
+  </text>
+  <g>
+    <use id="193" x="195" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,195,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001052" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="173" y="1251">
+    <tspan x="173" y="1251">CSC211</tspan>
+  </text>
+  <g>
+    <use id="195" x="295" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,295,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001053" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="273" y="1251">
+    <tspan x="273" y="1251">CSC211</tspan>
+  </text>
+  <g>
+    <use id="197" x="385" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,385,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001054" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="363" y="1251">
+    <tspan x="363" y="1251">CSC211</tspan>
+  </text>
+  <g>
+    <use id="199" x="477" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,477,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001055" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="455" y="1251">
+    <tspan x="455" y="1251">CSC211</tspan>
+  </text>
+  <g>
+    <use id="201" x="683" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,683,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001057" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="661" y="1251">
+    <tspan x="661" y="1251">CSC211</tspan>
+  </text>
+  <g>
+    <use id="203" x="783" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,783,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001058" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="761" y="1251">
+    <tspan x="761" y="1251">CSC211</tspan>
+  </text>
+  <g>
+    <use id="205" x="1099" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1099,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001059" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1077" y="1251">
+    <tspan x="1077" y="1251">CSC211</tspan>
+  </text>
+  <g>
+    <use id="207" x="1371" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1371,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001060" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1349" y="1251">
+    <tspan x="1349" y="1251">CSC211</tspan>
+  </text>
+  <g>
+    <use id="209" x="1597" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1597,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001061" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1575" y="1251">
+    <tspan x="1575" y="1251">CSC211</tspan>
+  </text>
+  <g>
+    <use id="211" x="1893" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1893,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001062" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1871" y="1251">
+    <tspan x="1871" y="1251">CSC211</tspan>
+  </text>
+  <g>
+    <use id="213" x="1789" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1789,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001066" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1763" y="1251">
+    <tspan x="1763" y="1251">CSC221A</tspan>
+  </text>
+  <g>
+    <use id="215" x="1280" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1280,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001065" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1254" y="1251">
+    <tspan x="1254" y="1251">CSC221A</tspan>
+  </text>
+  <g>
+    <use id="217" x="1014" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1014,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001067" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="988" y="1251">
+    <tspan x="988" y="1251">CSC241C</tspan>
+  </text>
+  <g>
+    <use id="219" x="2049" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,2049,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001063" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="2027" y="1251">
+    <tspan x="2027" y="1251">CSC211</tspan>
+  </text>
+  <text fill="#ffff00" stroke="#2de55b" font-family="SimSun" font-size="22" x="1464" y="1159">
+    <tspan x="1464" y="1159">母联</tspan>
+  </text>
+  <g>
+    <use id="222" x="1488" y="1222" width="51" height="32" transform="translate(-25,-16),scale(1.00,1.00),rotate(0,1488,1222)" xlink:href="#ied:保护_0"/>
+    <metadata>
+      <cge:CimClass CimType="ied"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="6001064" FieldNo="16"/>
+    </metadata>
+  </g>
+  <text fill="#2de55b" stroke="#2de55b" font-family="SimSun" font-size="14" x="1466" y="1251">
+    <tspan x="1466" y="1251">CSC211</tspan>
+  </text>
+  <g>
+    <use id="224" x="1473" y="174" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1473,174)" xlink:href="#Breaker:开关（横）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="225" x="1766" y="76" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1766,76)" xlink:href="#Breaker:开关（横）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="226" x="1767" y="138" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1767,138)" xlink:href="#Breaker:开关（横）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="227" x="1767" y="220" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1767,220)" xlink:href="#Breaker:开关（横）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="228" x="1766" y="578" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1766,578)" xlink:href="#Breaker:开关（横）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="229" x="1767" y="656" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1767,656)" xlink:href="#Breaker:开关（横）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="459024" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="230" x="1768" y="738" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1768,738)" xlink:href="#Breaker:开关（横）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="515549" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="231" x="1503" y="736" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,1503,736)" xlink:href="#Breaker:开关（横）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="459016" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g>
+    <use id="232" x="586" y="234" width="32" height="32" transform="translate(-16,-16),scale(1.00,1.00),rotate(0,586,234)" xlink:href="#Breaker:开关（横）_0"/>
+    <metadata>
+      <cge:CimClass CimType="Breaker"/>
+      <cge:PSR_Ref AFMask="SCADA/PAS" ObjectID="459016" FieldNo="-8739"/>
+    </metadata>
+  </g>
+  <g id="ConnectNode_Layer">
+    <g>
+      <path style="fill:none;stroke:#ff0000;stroke-width:1" d="M 599 234 L 714 234 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="231" PinLinkObjId1="28" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#ff0000;stroke-width:1" d="M 574 234 L 472 233 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="231" PinLinkObjId1="29" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 2047 977 L 2047 885 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="99" PinLinkObjId1="17" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 2047 1004 L 2047 1057 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="99" PinLinkObjId1="100" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1955 976 L 1955 885 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="101" PinLinkObjId1="17" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1885 1004 L 1886 1058 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="97" PinLinkObjId1="98" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1800 965 L 1800 884 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="102" PinLinkObjId1="17" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1885 977 L 1885 884 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="97" PinLinkObjId1="17" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1800 992 L 1800 1099 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="102" PinLinkObjId1="103" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1736 979 L 1736 883 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="104" PinLinkObjId1="17" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1736 1006 L 1736 1056 L 1736 1059 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="104" PinLinkObjId1="162" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1599 977 L 1599 883 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="95" PinLinkObjId1="17" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1599 1004 L 1599 1057 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="95" PinLinkObjId1="96" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1024 1005 L 1026 1078 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="81" PinLinkObjId1="82" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1099 1005 L 1099 1058 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="83" PinLinkObjId1="84" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1438 977 L 1438 887 L 1438 884 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="93" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1374 1004 L 1374 1057 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="85" PinLinkObjId1="86" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#0000aa;stroke-width:1" d="M 1374 977 L 1374 885 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="85" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 929 978 L 929 885 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="77" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 1024 978 L 1024 885 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="81" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 1099 978 L 1099 885 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="83" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 1180 974 L 1180 883 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="90" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 1284 967 L 1284 883 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="91" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 1284 994 L 1286 1068 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="91" PinLinkObjId1="92" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 775 1003 L 775 1056 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="71" PinLinkObjId1="72" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 685 1003 L 685 1056 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="69" PinLinkObjId1="70" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 592 1006 L 592 1135 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="120" PinLinkObjId1="159" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 483 1003 L 483 1056 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="67" PinLinkObjId1="68" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 389 1003 L 389 1056 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="65" PinLinkObjId1="66" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 297 1003 L 297 1056 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="63" PinLinkObjId1="64" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 775 976 L 775 884 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="71" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 685 976 L 685 884 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="69" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 592 979 L 592 886 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="120" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 483 976 L 483 886 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="67" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 389 976 L 389 883 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="65" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 297 976 L 297 883 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="63" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 199 1003 L 199 1056 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="61" PinLinkObjId1="62" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#1c1cff;stroke-width:1" d="M 199 976 L 199 886 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="61" PinLinkObjId1="16" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1780 138 L 2069 138 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="225" PinLinkObjId1="158" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1755 138 L 1658 137 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="225" PinLinkObjId1="15" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1779 76 L 2067 76 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="224" PinLinkObjId1="157" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1754 76 L 1656 75 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="224" PinLinkObjId1="15" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1780 220 L 2067 220 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="226" PinLinkObjId1="156" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1755 220 L 1656 219 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="226" PinLinkObjId1="15" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1779 578 L 2077 577 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="227" PinLinkObjId1="155" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1754 578 L 1654 577 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="227" PinLinkObjId1="42" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1780 656 L 2077 655 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="228" PinLinkObjId1="154" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1755 656 L 1654 655 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="228" PinLinkObjId1="42" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1781 738 L 2077 737 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="229" PinLinkObjId1="46" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1756 738 L 1654 737 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="229" PinLinkObjId1="42" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1516 736 L 1654 736 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="230" PinLinkObjId1="42" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1527 655 L 1655 655 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="58" PinLinkObjId1="42" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1499 578 L 1654 578 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="56" PinLinkObjId1="42" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1656 414 L 1656 494 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="47" PinLinkObjId1="42" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1656 387 L 1656 296 L 1656 296 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="47" PinLinkObjId1="15" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1507 57 L 1654 57 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="27" PinLinkObjId1="15" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#e3e300;stroke-width:1" d="M 1486 174 L 1654 174 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="223" PinLinkObjId1="15" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#d70000;stroke-width:1" d="M 861 344 L 861 473 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="21" PinLinkObjId1="22" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#d70000;stroke-width:1" d="M 861 317 L 861 235 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="21" PinLinkObjId1="28" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#d70000;stroke-width:1" d="M 336 344 L 336 475 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="18" PinLinkObjId1="19" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#d70000;stroke-width:1" d="M 336 317 L 336 233 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="18" PinLinkObjId1="29" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#d70000;stroke-width:1" d="M 959 116 L 960 235 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="34" PinLinkObjId1="28" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#d70000;stroke-width:1" d="M 177 118 L 178 233 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="30" PinLinkObjId1="29" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#d70000;stroke-width:1" d="M 393 157 L 393 233 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="151" PinLinkObjId1="29" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#d70000;stroke-width:1" d="M 393 97 L 393 130 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="152" PinLinkObjId1="151" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#d70000;stroke-width:1" d="M 771 157 L 771 233 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="33" PinLinkObjId1="28" PinNo0="1" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#d70000;stroke-width:1" d="M 771 97 L 771 130 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="35" PinLinkObjId1="33" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#ff0000;stroke-width:1" d="M 474 233 L 515 233 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="29" PinLinkObjId1="14" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#ff0000;stroke-width:1" d="M 473 233 L 473 232 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="29" PinLinkObjId1="14" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#ff0000;stroke-width:1" d="M 135 233 L 151 232 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="29" PinLinkObjId1="14" PinNo0="0" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#ffff00;stroke-width:1" d="M 950 540 L 1236 540 L 1236 174 L 1461 174 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="22" PinLinkObjId1="223" PinNo0="2" PinNo1="0"/>
+      </metadata>
+    </g>
+    <g>
+      <path style="fill:none;stroke:#ffff00;stroke-width:1" d="M 1491 736 L 1336 736 L 1336 828 L 425 828 L 425 542 "/>
+      <metadata>
+        <cge:CimClass CimType="ConnectiveNode"/>
+        <cge:Link AFMask="SCADA/PAS" SubPos0="-1" SubPos1="-1" PinLinkObjId0="230" PinLinkObjId1="19" PinNo0="0" PinNo1="2"/>
+      </metadata>
+    </g>
+  </g>
+</svg>
