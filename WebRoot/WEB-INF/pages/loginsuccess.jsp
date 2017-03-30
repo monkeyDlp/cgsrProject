@@ -37,15 +37,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="Left">
 	<div style='border:0px solid #000; background-color: #C4E1FF;padding:10px;'>馈线列表</div>
 	<ul id="treeDemo" class="ztree"></ul>
-	
-	<!--  <ul>
-		<a href="feeder_list.html"  target="#header-2" class="btna"><li>1、馈线名称</li></a><br>
-		<a href="rtu_list.html" target="#header-2" class="btna"><li>2、终端信息</li></a><br>
-		<a href="faultindicator_list.html"  target="#header-2" class="btna"><li>3、故障指示器信息</li></a>
-		<a href="yxdata_list.html"  target="#header-2" class="btna"><li>信息</li></a>
-		<a href="ycdate_list.html"  target="#header-2" class="btna"><li>信息</li></a>
-	</ul>-->
-	
 </div>
 	<div class="Right">
 	<div style='border:0px solid #000; background-color: #C4E1FF;padding:10px;'>功能区域.....</div>

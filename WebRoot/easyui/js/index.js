@@ -19,16 +19,7 @@ $(function(){
 						href: 'http://localhost:8080/cgsrProject/yxdata_list.html'  
 					}
 				});
-				//if(obj.tabs("exists","终端")){
-					//obj.tabs("select","终端");
-				//}else{
-					//obj.tabs("add",{
-						//title:"终端",
-						//closable:true,
-						//fit:true,
-						//href:"http://localhost:8080/cgsrProject/yxdata_list.html"
-					//});
-				//}
+				
 			}else if(node.id=="fault_indicator"){
 				var tab = $('#index_content').tabs('getSelected');  // get selected panel
 				$('#index_content').tabs('update', {
@@ -39,16 +30,7 @@ $(function(){
 					}
 				});
 				
-				//if(obj.tabs("exists","故障指示器")){
-					//obj.tabs("select","故障指示器");
-					//}else{
-					//obj.tabs("add",{
-						//title:"故障指示器",
-						//closable:true,
-						//fit:true,
-						//href:"http://localhost:8080/cgsrProject/ycdata_list.html"
-				//	});
-				//}
+				
 			}else if(node.id=="liuba"){
 				var tab = $('#index_content').tabs('getSelected');  // get selected panel
 				$('#index_content').tabs('update', {
@@ -59,16 +41,7 @@ $(function(){
 					}
 				});
 				
-				//if(obj.tabs("exists","故障指示器")){
-					//obj.tabs("select","故障指示器");
-					//}else{
-					//obj.tabs("add",{
-						//title:"故障指示器",
-						//closable:true,
-						//fit:true,
-						//href:"http://localhost:8080/cgsrProject/ycdata_list.html"
-				//	});
-				//}
+				
 			}
 		}
 	});
@@ -85,13 +58,7 @@ $(function(){
 						}
 					});
 
-					
-					//obj.tabs("add",{
-						//title:"10KV柳八线",
-						//closable:true,
-						//fit:true,
-						//href:"http://localhost:8080/cgsrProject/SvgPic.html"
-					//});
+				
 			}
 		}
 	});
